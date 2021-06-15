@@ -379,7 +379,29 @@
     "5players":{
       "brown" : [
         {
-          "name" : "tree farm",
+          "name" : "stone pit",
+          "payResource" :
+          {
+            "type" : "none"
+          },
+          "getResource" :{
+            "type" : "stone",
+            "amount" : 1
+          }
+        },
+        {
+          "name" : "clay pool",
+          "payResource" :
+          {
+            "type" : "none"
+          },
+          "getResource" :{
+            "type" : "clay",
+            "amount" : 1
+          }
+        },
+        {
+          "name" : "forest cave",
           "payResource" :
           {
             "type" : "coin",
@@ -393,28 +415,7 @@
                 "amount" : 1
               },
               {
-                "type" : "clay",
-                "amount" : 1
-              }
-            ]
-          }
-        },
-        {
-          "name" : "mine",
-          "payResource" :
-          {
-            "type" : "coin",
-            "amount" : 1
-          },
-          "getResource" :{
-            "type" : "choose",
-            "resource" : [
-              {
                 "type" : "ore",
-                "amount" : 1
-              },
-              {
-                "type" : "stone",
                 "amount" : 1
               }
             ]
@@ -480,29 +481,7 @@
     "6players":{
       "brown" : [
         {
-          "name" : "stone pit",
-          "payResource" :
-          {
-            "type" : "none"
-          },
-          "getResource" :{
-            "type" : "stone",
-            "amount" : 1
-          }
-        },
-        {
-          "name" : "clay pool",
-          "payResource" :
-          {
-            "type" : "none"
-          },
-          "getResource" :{
-            "type" : "clay",
-            "amount" : 1
-          }
-        },
-        {
-          "name" : "forest cave",
+          "name" : "tree farm",
           "payResource" :
           {
             "type" : "coin",
@@ -516,7 +495,28 @@
                 "amount" : 1
               },
               {
+                "type" : "clay",
+                "amount" : 1
+              }
+            ]
+          }
+        },
+        {
+          "name" : "mine",
+          "payResource" :
+          {
+            "type" : "coin",
+            "amount" : 1
+          },
+          "getResource" :{
+            "type" : "choose",
+            "resource" : [
+              {
                 "type" : "ore",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
                 "amount" : 1
               }
             ]
@@ -711,7 +711,7 @@
           }
         },
         {
-          "name" : "brickyard",
+          "name" : "clayyard",
           "payResource" :
           {
             "type" : "coin",
@@ -810,7 +810,7 @@
                     "amount" : 1
                   },
                   {
-                    "type" : "brick",
+                    "type" : "clay",
                     "amount" : 1
                   },
                   {
@@ -874,7 +874,7 @@
                   "resource" :
                   [
                     {
-                      "type" : "brick",
+                      "type" : "clay",
                       "amount" : 2
                     },
                     {
@@ -904,14 +904,27 @@
                 "name" : ["east trading post", "west trading post"]
               },
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 2
               }
             ]
           },
           "getResource" :{
-            "type" : "manufactured",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "papyrus",
+                "amount" : 1
+              },
+              {
+                "type" : "glass",
+                "amount" : 1
+              },
+              {
+                "type" : "loom",
+                "amount" : 1
+              }
+            ]
           }
         },
         {
@@ -933,8 +946,25 @@
 
           },
           "getResource" :{
-            "type" : "raw",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "wood",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              },
+              {
+                "type" : "clay",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              }
+            ]
           }
         },
         {
@@ -983,7 +1013,7 @@
                       "amount" : 1
                     },
                     {
-                      "type" : "brick",
+                      "type" : "clay",
                       "amount" : 1
                     },
                     {
@@ -1180,7 +1210,7 @@
           }
         },
         {
-          "name" : "brickyard",
+          "name" : "clayyard",
           "payResource" :
           {
             "type" : "coin",
@@ -1331,7 +1361,7 @@
                   "resource" :
                   [
                     {
-                      "type" : "brick",
+                      "type" : "clay",
                       "amount" : 2
                     },
                     {
@@ -1368,8 +1398,25 @@
 
           },
           "getResource" :{
-            "type" : "raw",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "wood",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              },
+              {
+                "type" : "clay",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              }
+            ]
           }
         }
       ],
@@ -1395,7 +1442,7 @@
                         "amount" : 1
                       },
                       {
-                        "type" : "brick",
+                        "type" : "clay",
                         "amount" : 1
                       },
                       {
@@ -1469,7 +1516,7 @@
                     "amount" : 1
                   },
                   {
-                    "type" : "brick",
+                    "type" : "clay",
                     "amount" : 1
                   },
                   {
@@ -1500,14 +1547,27 @@
                 "name" : ["east trading post", "west trading post"]
               },
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 2
               }
             ]
           },
           "getResource" :{
-            "type" : "manufactured",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "papyrus",
+                "amount" : 1
+              },
+              {
+                "type" : "glass",
+                "amount" : 1
+              },
+              {
+                "type" : "loom",
+                "amount" : 1
+              }
+            ]
           }
         },
         {
@@ -1529,8 +1589,25 @@
 
           },
           "getResource" :{
-            "type" : "raw",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "wood",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              },
+              {
+                "type" : "clay",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              }
+            ]
           }
         },
         {
@@ -1705,14 +1782,27 @@
                 "name" : ["east trading post", "west trading post"]
               },
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 2
               }
             ]
           },
           "getResource" :{
-            "type" : "manufactured",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "papyrus",
+                "amount" : 1
+              },
+              {
+                "type" : "glass",
+                "amount" : 1
+              },
+              {
+                "type" : "loom",
+                "amount" : 1
+              }
+            ]
           }
         },
         {
@@ -1812,7 +1902,7 @@
                 "amount" : 1
               },
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 1
               }
             ]
@@ -1878,7 +1968,7 @@
             "type" : "mixed",
             "resource" :[
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 3
               },
               {
@@ -1904,7 +1994,7 @@
             "type" : "mixed",
             "resource" :[
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 3
               },
               {
@@ -1993,8 +2083,21 @@
 
           },
           "getResource" :{
-            "type" : "science",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "compass",
+                "amount" : 1
+              },
+              {
+                "type" : "wheel",
+                "amount" : 1
+              },
+              {
+                "type" : "tablet",
+                "amount" : 1
+              }
+            ]
           }
         },
           {
@@ -2034,7 +2137,7 @@
                   "amount" : 2
                 },
                 {
-                  "type" : "brick",
+                  "type" : "clay",
                   "amount" : 2
                 },
                 {
@@ -2069,7 +2172,7 @@
                     "amount" : 1
                   },
                   {
-                    "type" : "brick",
+                    "type" : "clay",
                     "amount" : 2
                   },
                   {
@@ -2112,7 +2215,7 @@
                     "amount" : 1
                   },
                   {
-                    "type" : "brick",
+                    "type" : "clay",
                     "amount" : 2
                   }
                 ]
@@ -2173,7 +2276,7 @@
                 "amount" : 1
               },
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 1
               },
               {
@@ -2400,7 +2503,7 @@
                   "resource" :
                   [
                     {
-                      "type" : "brick",
+                      "type" : "clay",
                       "amount" : 3
                     },
                     {
@@ -2434,7 +2537,7 @@
                   "resource" :
                   [
                     {
-                      "type" : "brick",
+                      "type" : "clay",
                       "amount" : 2
                     },
                     {
@@ -2617,7 +2720,7 @@
                     "amount" : 1
                   },
                   {
-                    "type" : "brick",
+                    "type" : "clay",
                     "amount" : 2
                   }
                 ]
@@ -2674,7 +2777,7 @@
             "type" : "mixed",
             "resource" : [
               {
-                "type" : "brick",
+                "type" : "clay",
                 "amount" : 2
               },
               {
@@ -2934,7 +3037,7 @@
                     "resource" :
                     [
                       {
-                        "type" : "brick",
+                        "type" : "clay",
                         "amount" : 3
                       },
                       {
@@ -2991,7 +3094,7 @@
         }
       ]
     },
-      "6player" : {
+      "6players" : {
         "purple":[],
         "blue":[
           {
@@ -3012,7 +3115,7 @@
                       "amount" : 1
                     },
                     {
-                      "type" : "brick",
+                      "type" : "clay",
                       "amount" : 2
                     },
                     {
@@ -3102,7 +3205,7 @@
               "type" : "mixed",
               "resource" : [
                 {
-                  "type" : "brick",
+                  "type" : "clay",
                   "amount" : 2
                 },
                 {
@@ -3168,7 +3271,7 @@
                     "resource" :
                     [
                       {
-                        "type" : "brick",
+                        "type" : "clay",
                         "amount" : 2
                       },
                       {
@@ -3216,7 +3319,7 @@
                   "amount" : 1
                 },
                 {
-                  "type" : "brick",
+                  "type" : "clay",
                   "amount" : 1
                 },
                 {
