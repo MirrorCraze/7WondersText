@@ -30,7 +30,10 @@ def init(player):
         print(type(wonderList[wonderCurName][side]))
         newWonders = Wonder(wonderCurName, side, wonderCur["initial"]["type"],wonderCur["initial"]["amount"], **wonderList[wonderCurName][side])
         newPlayer.assignWonders(newWonders)
-        playerList[i]=(newPlayer)
+        playerList[i]=newPlayer
+    for i in range(1,player+1):
+        curPlayer = playerList[i]
+        playerList[i].assignLeftRight(playerList[curPlayer.left],playerList[curPlayer.right])
     return cardAge, playerList
 
 def getCardAge(age, player, cardList):
@@ -58,7 +61,8 @@ if __name__ == "__main__":
             playerList[i+1].assignHand(cardShuffled[i])
         for i in range(0,6):
             for j in range(len(playerList)):
-                playerList[j+1].playCard(playerList[playerList[j+1].left],playerList[playerList[j+1].right])
+                #print("j" + str(j))
+                playerList[j+1].playCard()
             rotateHand(playerList)
         print("AGE" + str(age))
         for j in range(len(playerList)):

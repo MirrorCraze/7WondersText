@@ -1,7 +1,13 @@
 from mainGameEnv.WonderClass import Wonder
 from mainGameEnv.Personality import Personality
 from mainGameEnv.resourceClass import Resource
+from mainGameEnv import mainHelper
 import operator
+
+class ResourceBFS:
+    def __init__(self,accuArr,remainArr):
+        self.accuArr = accuArr
+        self.remainArr = remainArr
 class Player:
     def __init__(self, playerNumber,totalPlayer,person):
         self.player = playerNumber
@@ -15,9 +21,9 @@ class Player:
         self.westTradePrices = self.eastTradePrices.copy()
         self.resource = dict.fromkeys(["wood", "clay", "ore", "stone","papyrus","glass","loom","compass", "wheel", "tablet","shield"],0)
         self.VP = 0
+        self.wonders = None
         self.left = (playerNumber-2)%totalPlayer+1
         self.right = playerNumber%totalPlayer+1
-        self.wonders = None
         self.hand = []
         self.personality = person
     def assignWonders(self,wonder):
@@ -25,6 +31,9 @@ class Player:
         beginRes = wonder.beginResource
         print(beginRes.resource)
         self.resource[beginRes.resource] += beginRes.amount
+    def assignLeftRight(self, leftPlayer, rightPlayer):
+        self.left = leftPlayer
+        self.right = rightPlayer
     def printPlayer(self):
         print(self.__dict__)
         self.wonders.printWonder()
@@ -37,17 +46,77 @@ class Player:
             if singleCard.name == name:
                 return True
         return False
-    def checkLeftRight(self,amount,type,left,right):
+    def checkLeftRight(self,amount,type):
         leftPrice = self.westTradePrices[type]
         rightPrice = self.eastTradePrices[type]
-        if self.coin >= leftPrice*amount and left.resource[type] > 0:
-            return True
-        elif self.coin >=rightPrice*amount and right.resource[type] > 0:
-            return True
+        minPrice = 10000000
+        side = "M"
+        if self.coin >= leftPrice*amount and self.left.resource[type] > 0:
+            minPrice = leftPrice*amount
+            side = "L"
+        if self.coin >=rightPrice*amount and self.right.resource[type] > 0:
+            if minPrice > rightPrice*amount:
+                minPrice = rightPrice*amount
+                side = "R"
+        if side == "M":
+            return -1,side
         else:
-            return False
+            return minPrice,side
 
-    def playable(self,card,left,right):
+
+    def addiResComp(self,targetArr,curResArr):
+        print("BEFORE")
+        for i in targetArr:
+            i.printResource()
+        for res in curResArr:
+            name = res.resource
+            print("Name" + name)
+            for tar in targetArr:
+                if name == tar.resource:
+                    tar.amount -= res.amount
+        targetArr = [i for i in targetArr if i.amount>0]
+        print("AFTER")
+        for i in targetArr:
+            i.printResource()
+        return targetArr
+    def BFS(self,targetArray,resourceArray):
+        layerBefore = []
+        queue = []
+        minLeft = 10000000
+        minRight = 10000000
+        queue.append(ResourceBFS([],resourceArray))
+        while queue:
+            left = 0
+            right = 0
+            price = -1
+            side = "M"
+            print(queue[0])
+            qFront = queue[0]
+            curRes = qFront.accuArr
+            remainRes = qFront.remainArr
+            print("REMAINRES")
+            print(remainRes)
+            remainArr = self.addiResComp(targetArray.copy(), curRes.copy())
+            for remain in remainArr:
+                price,side = self.checkLeftRight(remain.amount,remain.resource)
+                if price == -1:
+                    break
+                elif side == "L":
+                    left += price
+                elif side == "R":
+                    right += price
+            if price != -1 and left + right < minLeft + minRight
+                minLeft = left
+                minRight = right
+            queue.pop(0)
+            if remainRes:
+                resChooseCard = remainRes[0]
+                for res in resChooseCard.getResource['resource']:
+                    queue.append(curRes.append(mainHelper.resBuild(res)),remainRes[1:])
+
+        return 0
+    def playable(self,card):
+        print(card.payResource)
         #print("--------------")
         #print(card.payResource)
         payRes = card.payResource
@@ -75,37 +144,20 @@ class Player:
             missResource = dict(sorted(missResource.items(), key = operator.itemgetter(1), reverse = True))
             print("oldMissResource")
             print(missResource)
+            missArr = []
+            for name,amount in missResource.items():
+                missArr.append(Resource(name,amount))
+            amount = self.BFS(missArr,self.choosecard)
             dictAll = {}
-            for card in self.choosecard:
-                mixRes = card.getResource['resource']
-                for res in mixRes:
-                    if res['type'] not in dictAll:
-                        dictAll[res['type']] = 1
-                    else:
-                        dictAll[res['type']]+=1
-            print("dictAll")
-            print(dictAll)
-            missResource = {key : missResource[key] - dictAll.get(key,0) for key in missResource if missResource[key] - dictAll.get(key,0) > 0}
-            print("missResource---------------")
-            print(missResource)
-            if len(missResource.keys()) == 0:
-                return True
-            else:
-                return False
-        else:
-            if self.resource[payRes['type']] >= payRes['amount']:
-                return True
-            else:
-                extendAmount = payRes['amount'] - self.resource[payRes['type']]
-                return self.checkLeftRight(extendAmount,payRes['type'],left,right)
+
     def activateEffect(self,effect):
         return 0
     def deleteCardFromHand(self,card):
         self.hand.remove(card)
-    def playCard(self,left,right):
+    def playCard(self):
         choices = []
         for card in self.hand:
-            if self.playable(card,left,right):
+            if self.playable(card):
                 choices.append(card)
         #print("CHOICE-----------CHOICE")
 
@@ -129,6 +181,8 @@ class Player:
                 self.resource[selectedCard.getResource["type"]]+=selectedCard.getResource["amount"]
             else:
                 self.activateEffect(selectedCard.getResource["effect"])
+
+
 
 
 

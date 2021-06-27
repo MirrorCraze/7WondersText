@@ -12,7 +12,7 @@ class StupidAI(Personality):
         pass
 
     def make_choice(self, options):
-        return 0
+        return len(options)-1
 
 
 class Human(Personality):

@@ -1,8 +1,9 @@
 from mainGameEnv.cardClass import Card
 from mainGameEnv.PlayerClass import Player
+from mainGameEnv.resourceClass import Resource
 import random
-
-
+def resBuild(cardJSON):
+    return Resource(cardJSON['type'], cardJSON['amount'])
 def filterPlayer(jsonCard, playerNum):
     jsonString = {}
     start = 3
