@@ -1,10 +1,15 @@
 import json
 import random
-from mainGameEnv.mainHelper import filterPlayer, buildCard,rotateHand
+from operator import itemgetter
+
+from mainGameEnv.mainHelper import filterPlayer, buildCard,rotateHand, battle
 from mainGameEnv.PlayerClass import Player
 from mainGameEnv.WonderClass import Wonder
 from mainGameEnv.resourceClass import Resource
 from mainGameEnv.Personality import Personality, StupidAI
+from mainGameEnv.stageClass import Stage
+import sys
+
 
 
 def init(player):
@@ -17,9 +22,10 @@ def init(player):
     wonderList = json.load(fileOper)
     wonderList = wonderList["wonders"]
     wonderName= list(wonderList.keys())
+    random.shuffle(wonderName)
     wonderSelected = wonderName[0:player]
-    print(wonderSelected)
-    print(wonderList['Rhodes'])
+    #print(wonderSelected)
+    #print(wonderList['Rhodes'])
     playerList = {}
     for i in range(1,player+1):
         newPlayer = Player(i,player,StupidAI)
@@ -27,13 +33,14 @@ def init(player):
         wonderCurName = wonderSelected[i-1]
         wonderCur = wonderList[wonderCurName]
         initialResource = Resource(wonderCur["initial"]["type"],wonderCur["initial"]["amount"])
-        print(type(wonderList[wonderCurName][side]))
+        #print(type(wonderList[wonderCurName][side]))
         newWonders = Wonder(wonderCurName, side, wonderCur["initial"]["type"],wonderCur["initial"]["amount"], **wonderList[wonderCurName][side])
         newPlayer.assignWonders(newWonders)
         playerList[i]=newPlayer
     for i in range(1,player+1):
         curPlayer = playerList[i]
         playerList[i].assignLeftRight(playerList[curPlayer.left],playerList[curPlayer.right])
+    print("SETUP COMPLETE")
     return cardAge, playerList
 
 def getCardAge(age, player, cardList):
@@ -46,28 +53,64 @@ def getCardAge(age, player, cardList):
     return cardAge
 
 if __name__ == "__main__":
+
+    discarded = []
     logger = open("loggers.txt","w+")
     player = input("How many players?")
     player = int(player)
+    path = '../gameLog.txt'
+    sys.stdout = open(path, 'w')
     cardAge, playerList = init(player)
     for player in playerList.keys():
-        playerList[player].printPlayer()
+        print("Player {} with wonders {}".format(player,playerList[player].wonders.name))
     for age in range(1,4):
         cardThisAge = cardAge[age-1]
-        print(len(cardThisAge))
         random.shuffle(cardThisAge)
         cardShuffled = [cardThisAge[i:i + 7] for i in range(0, len(cardThisAge), 7)]
         for i in range(len(cardShuffled)):
+            if any("freeStructure" in effect for effect in playerList[i+1].endAgeEffect):
+                playerList[i+1].freeStructure = True
             playerList[i+1].assignHand(cardShuffled[i])
         for i in range(0,6):
             for j in range(len(playerList)):
                 #print("j" + str(j))
-                playerList[j+1].playCard()
-            rotateHand(playerList)
+                card,action = playerList[j+1].playCard()
+                if action == -1:#card discarded
+                    discarded.append(card)
+                    print("PLAYER {} discard {}".format(j + 1, card.name))
+                elif isinstance(card,Stage):
+                    print("PLAYER {} play step {}".format(j + 1, card.stage))
+                else:
+                    print("PLAYER {} play {}".format(j+1,card.name))
+            rotateHand(playerList,age)
+            for j in range(len(playerList)):
+                print("PLAYER {} resource".format(j+1), end = " ")
+                for res in playerList[j+1].resource:
+                    print(res,playerList[j+1].resource[res],end=" ")
+                print()
+            for j in range(len(playerList)):
+                player = playerList[j+1]
+                if player.endTurnEffect == "buildDiscarded":
+                    card,action = player.playFromEffect(discarded,player.endTurnEffect)
+                    discarded = [disCard for disCard in discarded if disCard.name!=card.name]
+        print("REMAINING HANDS")
+        for j in range(len(playerList)):
+            discarded.append(playerList[j + 1].hand[0])
+            print(playerList[j + 1].hand)
         print("AGE" + str(age))
         for j in range(len(playerList)):
             playerList[j+1].printPlayer()
-
+        # military conflict
+        for j in range(1, 1 + len(playerList)):
+            battle(playerList[j], playerList[j % len(playerList) + 1], age)
+    #end game period
+    endScore = []
+    for i in range(len(playerList)):
+        endScore.append((i+1,playerList[i+1].endGameCal()))
+    endScore = sorted(endScore,key = itemgetter(1),reverse=True)
+    print("SCOREBOARD")
+    for i in endScore:
+        print("Player {} with score {}".format(i[0],i[1]))
 
 
 

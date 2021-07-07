@@ -113,8 +113,25 @@
             "amount" : 2
           },
           "getResource" :{
-            "type" : "raw",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "wood",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              },
+              {
+                "type" : "clay",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              }
+            ]
           }
         },
         "stage_3" :{
@@ -135,8 +152,25 @@
             "amount" : 2
           },
           "getResource" :{
-            "type" : "raw",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "wood",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              },
+              {
+                "type" : "clay",
+                "amount" : 1
+              },
+              {
+                "type" : "stone",
+                "amount" : 1
+              }
+            ]
           }
         },
         "stage_2" :{
@@ -146,8 +180,21 @@
             "amount" : 2
           },
           "getResource" :{
-            "type" : "manufactured",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "papyrus",
+                "amount" : 1
+              },
+              {
+                "type" : "glass",
+                "amount" : 1
+              },
+              {
+                "type" : "loom",
+                "amount" : 1
+              }
+            ]
           }
         }
         ,
@@ -299,8 +346,21 @@
             "amount" : 3
           },
           "getResource" :{
-            "type" : "science",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "compass",
+                "amount" : 1
+              },
+              {
+                "type" : "wheel",
+                "amount" : 1
+              },
+              {
+                "type" : "tablet",
+                "amount" : 1
+              }
+            ]
           }
         },
         "stage_3" :{
@@ -369,8 +429,21 @@
             ]
           },
           "getResource" :{
-            "type" : "science",
-            "amount" : 1
+            "type" : "choose",
+            "resource" : [
+              {
+                "type" : "compass",
+                "amount" : 1
+              },
+              {
+                "type" : "wheel",
+                "amount" : 1
+              },
+              {
+                "type" : "tablet",
+                "amount" : 1
+              }
+            ]
           }
         }
       }
@@ -421,7 +494,7 @@
           },
           "getResource" :{
             "type" : "effect",
-            "effect" : "sideTradingPosts"
+            "effect" : "sideTradingRaws"
           }
         },
         "stage_2" :{

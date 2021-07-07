@@ -169,7 +169,7 @@
           },
           "getResource" :{
             "type" : "effect",
-            "effect" : "eastTradingPost"
+            "effect" : "eastTradingRaws"
           }
         },
         {
@@ -180,7 +180,7 @@
           },
           "getResource" :{
             "type" : "effect",
-            "effect" : "westTradingPost"
+            "effect" : "westTradingRaws"
           }
         },
         {
@@ -637,7 +637,7 @@
           },
           "getResource" :{
             "type" : "effect",
-            "effect" : "eastTradingPost"
+            "effect" : "eastTradingRaws"
           }
         },
         {
@@ -648,7 +648,7 @@
           },
           "getResource" :{
             "type" : "effect",
-            "effect" : "westTradingPost"
+            "effect" : "westTradingRaws"
           }
         }
       ],
@@ -2058,7 +2058,7 @@
           },
           "getResource" :{
             "type" : "effect",
-            "effect" :"BrownGreyPurpleOneVP"
+            "effect" :"brownGreyPurpleOneVP"
           }
         },
         {
@@ -2149,7 +2149,7 @@
             },
             "getResource" :{
               "type" : "effect",
-              "effect" :"BrownGreyPurpleOneVP"
+              "effect" :"brownGreyPurpleOneVP"
             }
           }
       ],

@@ -1,0 +1,1663 @@
+SETUP COMPLETE
+Player 1 with wonders Alexandria
+Player 2 with wonders Babylon
+Player 3 with wonders Rhodes
+Player 4 with wonders Giza
+Player 5 with wonders Olympia
+Player 6 with wonders Ephesus
+Player 7 with wonders Halicarnassus
+CHOICES : 
+excavation 0 ,0 ,-1  
+press 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+marketplace 0 ,0 ,-1  
+guard tower 0 ,0 ,-1  
+workshop 0 ,0 ,-1  
+ore vein 0 ,0 ,-1  
+excavation 0 ,0 ,0  
+press 0 ,0 ,0  
+marketplace 0 ,0 ,0  
+guard tower 0 ,2 ,0  
+workshop 0 ,0 ,0  
+ore vein 0 ,0 ,0  
+PLAYER 1 play ore vein
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+forest cave 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+stone pit 0 ,0 ,-1  
+guard tower 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+altar 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+forest cave 0 ,0 ,0  
+theater 0 ,0 ,0  
+stone pit 0 ,0 ,0  
+guard tower 0 ,0 ,0  
+theater 0 ,0 ,0  
+altar 0 ,0 ,0  
+PLAYER 2 play altar
+CHOICES : 
+timber yard 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+east trading post 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+stone pit 0 ,0 ,-1  
+tree farm 0 ,0 ,-1  
+timber yard 0 ,0 ,0  
+baths 0 ,2 ,0  
+east trading post 0 ,0 ,0  
+tavern 0 ,0 ,0  
+stone pit 0 ,0 ,0  
+tree farm 0 ,0 ,0  
+PLAYER 3 play tree farm
+CHOICES : 
+press 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+clay pit 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+press 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+clay pit 0 ,0 ,0  
+tavern 0 ,0 ,0  
+glassworks 0 ,0 ,0  
+tavern 0 ,0 ,0  
+PLAYER 4 play tavern
+CHOICES : 
+barracks 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+mine 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+barracks 0 ,0 ,-1  
+west trading post 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+clay pool 0 ,0 ,0  
+mine 0 ,0 ,0  
+glassworks 0 ,0 ,0  
+west trading post 0 ,0 ,0  
+clay pool 0 ,0 ,0  
+PLAYER 5 play clay pool
+CHOICES : 
+marketplace 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+ore vein 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+west trading post 0 ,0 ,-1  
+marketplace 0 ,0 ,0  
+loom 0 ,0 ,0  
+apothecary 0 ,2 ,0  
+ore vein 0 ,0 ,0  
+loom 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+west trading post 0 ,0 ,0  
+PLAYER 6 play west trading post
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+altar 0 ,0 ,-1  
+workshop 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+east trading post 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+altar 0 ,0 ,0  
+workshop 0 ,2 ,0  
+apothecary 0 ,0 ,0  
+east trading post 0 ,0 ,0  
+PLAYER 7 play east trading post
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 0 clay 1 ore 0 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 1 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 7 resource wood 0 clay 0 ore 0 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 0 
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+altar 0 ,0 ,-1  
+workshop 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+altar 0 ,0 ,0  
+workshop 0 ,0 ,0  
+apothecary 2 ,0 ,0  
+PLAYER 1 play apothecary
+CHOICES : 
+excavation 0 ,0 ,-1  
+press 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+marketplace 0 ,0 ,-1  
+guard tower 0 ,0 ,-1  
+workshop 0 ,0 ,-1  
+excavation 0 ,0 ,0  
+press 0 ,0 ,0  
+marketplace 0 ,0 ,0  
+guard tower 0 ,0 ,0  
+workshop 2 ,0 ,0  
+Babylon1 0 ,2 ,0  excavation 
+
+Babylon1 0 ,2 ,0  press 
+
+Babylon1 0 ,2 ,0  scriptorium 
+
+Babylon1 0 ,2 ,0  marketplace 
+
+Babylon1 0 ,2 ,0  guard tower 
+
+Babylon1 0 ,2 ,0  workshop 
+
+PLAYER 2 play step 1
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+forest cave 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+stone pit 0 ,0 ,-1  
+guard tower 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+forest cave 0 ,0 ,0  
+theater 0 ,0 ,0  
+stone pit 0 ,0 ,0  
+guard tower 2 ,0 ,0  
+theater 0 ,0 ,0  
+PLAYER 3 play theater
+CHOICES : 
+timber yard 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+east trading post 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+stone pit 0 ,0 ,-1  
+timber yard 0 ,0 ,0  
+baths 0 ,0 ,0  
+east trading post 0 ,0 ,0  
+tavern 0 ,0 ,0  
+stockade 2 ,0 ,0  
+stone pit 0 ,0 ,0  
+PLAYER 4 play stone pit
+CHOICES : 
+press 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+clay pit 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+press 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+clay pit 0 ,0 ,0  
+tavern 0 ,0 ,0  
+scriptorium 0 ,2 ,0  
+glassworks 0 ,0 ,0  
+PLAYER 5 play glassworks
+CHOICES : 
+barracks 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+mine 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+barracks 0 ,0 ,-1  
+west trading post 0 ,0 ,-1  
+clay pool 0 ,0 ,0  
+mine 0 ,0 ,0  
+glassworks 0 ,0 ,0  
+west trading post 0 ,0 ,0  
+PLAYER 6 play west trading post
+CHOICES : 
+marketplace 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+ore vein 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+marketplace 0 ,0 ,0  
+loom 0 ,0 ,0  
+apothecary 0 ,0 ,0  
+ore vein 0 ,0 ,0  
+loom 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+PLAYER 7 play lumber yard
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 1 loom 0 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 0 clay 1 ore 0 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 0 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 0 
+CHOICES : 
+marketplace 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+ore vein 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+marketplace 0 ,0 ,0  
+loom 0 ,0 ,0  
+apothecary 2 ,0 ,0  
+ore vein 0 ,0 ,0  
+loom 0 ,0 ,0  
+PLAYER 1 play loom
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+altar 0 ,0 ,-1  
+workshop 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+stockade 0 ,2 ,0  
+altar 0 ,0 ,0  
+workshop 2 ,0 ,0  
+PLAYER 2 play workshop
+CHOICES : 
+excavation 0 ,0 ,-1  
+press 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+marketplace 0 ,0 ,-1  
+guard tower 0 ,0 ,-1  
+excavation 0 ,0 ,0  
+press 0 ,0 ,0  
+marketplace 0 ,0 ,0  
+guard tower 2 ,0 ,0  
+PLAYER 3 play guard tower
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+forest cave 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+stone pit 0 ,0 ,-1  
+guard tower 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+forest cave 0 ,0 ,0  
+theater 0 ,0 ,0  
+stone pit 0 ,0 ,0  
+guard tower 2 ,0 ,0  
+Giza1 0 ,0 ,0  pawnshop 
+
+Giza1 0 ,0 ,0  forest cave 
+
+Giza1 0 ,0 ,0  theater 
+
+Giza1 0 ,0 ,0  stone pit 
+
+Giza1 0 ,0 ,0  guard tower 
+
+PLAYER 4 play step 1
+CHOICES : 
+timber yard 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+east trading post 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+timber yard 0 ,0 ,0  
+baths 2 ,0 ,0  
+east trading post 0 ,0 ,0  
+tavern 0 ,0 ,0  
+stockade 0 ,0 ,0  
+PLAYER 5 play stockade
+CHOICES : 
+press 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+clay pit 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+press 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+clay pit 0 ,0 ,0  
+tavern 0 ,0 ,0  
+scriptorium 0 ,0 ,0  
+PLAYER 6 play scriptorium
+CHOICES : 
+barracks 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+mine 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+barracks 0 ,0 ,-1  
+barracks 0 ,2 ,0  
+clay pool 0 ,0 ,0  
+mine 0 ,0 ,0  
+glassworks 0 ,0 ,0  
+barracks 0 ,2 ,0  
+PLAYER 7 play barracks
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 1 loom 1 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 0 clay 1 ore 0 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 0 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 1 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+CHOICES : 
+barracks 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+mine 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+barracks 0 ,0 ,0  
+clay pool 0 ,0 ,0  
+mine 0 ,0 ,0  
+glassworks 0 ,0 ,0  
+PLAYER 1 play glassworks
+CHOICES : 
+marketplace 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+ore vein 0 ,0 ,-1  
+marketplace 0 ,0 ,0  
+loom 0 ,0 ,0  
+apothecary 2 ,0 ,0  
+ore vein 0 ,0 ,0  
+PLAYER 2 play ore vein
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+altar 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+baths 0 ,2 ,0  
+altar 0 ,0 ,0  
+PLAYER 3 play altar
+CHOICES : 
+excavation 0 ,0 ,-1  
+press 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+marketplace 0 ,0 ,-1  
+excavation 0 ,0 ,0  
+press 0 ,0 ,0  
+marketplace 0 ,0 ,0  
+Giza2 6 ,0 ,0  excavation 
+
+Giza2 6 ,0 ,0  press 
+
+Giza2 6 ,0 ,0  scriptorium 
+
+Giza2 6 ,0 ,0  marketplace 
+
+PLAYER 4 play step 2
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+forest cave 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+stone pit 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+forest cave 0 ,0 ,0  
+theater 0 ,0 ,0  
+stone pit 0 ,0 ,0  
+PLAYER 5 play stone pit
+CHOICES : 
+timber yard 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+east trading post 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+timber yard 0 ,0 ,0  
+baths 2 ,0 ,0  
+east trading post 0 ,0 ,0  
+tavern 0 ,0 ,0  
+PLAYER 6 play tavern
+CHOICES : 
+press 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+clay pit 0 ,0 ,-1  
+tavern 0 ,0 ,-1  
+press 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+clay pit 0 ,0 ,0  
+tavern 0 ,0 ,0  
+PLAYER 7 play tavern
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 1 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 0 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 1 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+CHOICES : 
+press 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+clay pit 0 ,0 ,-1  
+press 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+clay pit 0 ,0 ,0  
+PLAYER 1 play clay pit
+CHOICES : 
+barracks 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+mine 0 ,0 ,-1  
+barracks 0 ,0 ,0  
+clay pool 0 ,0 ,0  
+mine 0 ,0 ,0  
+PLAYER 2 play mine
+CHOICES : 
+marketplace 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+marketplace 0 ,0 ,0  
+loom 0 ,0 ,0  
+PLAYER 3 play loom
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+stockade 2 ,0 ,0  
+baths 0 ,0 ,0  
+PLAYER 4 play baths
+CHOICES : 
+excavation 0 ,0 ,-1  
+press 0 ,0 ,-1  
+scriptorium 0 ,0 ,-1  
+excavation 0 ,0 ,0  
+press 0 ,0 ,0  
+scriptorium 0 ,2 ,0  
+PLAYER 5 play scriptorium
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+forest cave 0 ,0 ,-1  
+theater 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+forest cave 0 ,0 ,0  
+theater 0 ,0 ,0  
+Ephesus1 4 ,0 ,0  pawnshop 
+
+Ephesus1 4 ,0 ,0  forest cave 
+
+Ephesus1 4 ,0 ,0  theater 
+
+PLAYER 6 play step 1
+CHOICES : 
+timber yard 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+east trading post 0 ,0 ,-1  
+timber yard 0 ,0 ,0  
+east trading post 0 ,0 ,0  
+Halicarnassus1 0 ,4 ,0  timber yard 
+
+Halicarnassus1 0 ,4 ,0  baths 
+
+Halicarnassus1 0 ,4 ,0  east trading post 
+
+PLAYER 7 play step 1
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 1 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 0 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 0 glass 0 loom 0 compass 0 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 1 shield 1 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 1 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+CHOICES : 
+timber yard 0 ,0 ,-1  
+baths 0 ,0 ,-1  
+timber yard 0 ,0 ,0  
+baths 0 ,2 ,0  
+PLAYER 1 play baths
+CHOICES : 
+press 0 ,0 ,-1  
+lumber yard 0 ,0 ,-1  
+press 0 ,0 ,0  
+lumber yard 0 ,0 ,0  
+PLAYER 2 play lumber yard
+CHOICES : 
+barracks 0 ,0 ,-1  
+clay pool 0 ,0 ,-1  
+barracks 0 ,0 ,0  
+clay pool 0 ,0 ,0  
+Rhodes1 2 ,0 ,0  barracks 
+
+Rhodes1 2 ,0 ,0  clay pool 
+
+PLAYER 3 play step 1
+CHOICES : 
+marketplace 0 ,0 ,-1  
+apothecary 0 ,0 ,-1  
+marketplace 0 ,0 ,0  
+apothecary 2 ,0 ,0  
+PLAYER 4 play apothecary
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+stockade 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+stockade 0 ,0 ,0  
+PLAYER 5 play stockade
+CHOICES : 
+excavation 0 ,0 ,-1  
+press 0 ,0 ,-1  
+excavation 0 ,0 ,0  
+press 0 ,0 ,0  
+Ephesus2 4 ,0 ,0  excavation 
+
+Ephesus2 4 ,0 ,0  press 
+
+PLAYER 6 play step 2
+CHOICES : 
+pawnshop 0 ,0 ,-1  
+forest cave 0 ,0 ,-1  
+pawnshop 0 ,0 ,0  
+forest cave 0 ,0 ,0  
+Halicarnassus2 0 ,4 ,0  pawnshop 
+
+Halicarnassus2 0 ,4 ,0  forest cave 
+
+PLAYER 7 play step 2
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 1 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 1 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 0 glass 0 loom 0 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 1 shield 2 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 1 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+REMAINING HANDS
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E9E50>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E9640>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E9BB0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C717310>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E9FD0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E9D30>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E9790>]
+AGE1
+{'name': 'Alexandria', 'side': 'A', 'stage': 0, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2700>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2760>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E27C0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E26A0>}
+{'resource': 'glass', 'amount': 1}
+ore vein apothecary loom glassworks clay pit baths {'name': 'Babylon', 'side': 'A', 'stage': 1, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2910>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2970>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E29D0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E28B0>}
+{'resource': 'clay', 'amount': 1}
+altar workshop ore vein mine lumber yard {'name': 'Rhodes', 'side': 'A', 'stage': 1, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2B20>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2B80>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2BE0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2AC0>}
+{'resource': 'ore', 'amount': 1}
+tree farm theater guard tower altar loom {'name': 'Giza', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2D60>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2FA0>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2F40>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2D00>}
+{'resource': 'stone', 'amount': 1}
+tavern stone pit baths apothecary {'name': 'Olympia', 'side': 'B', 'stage': 0, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2DF0>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2D90>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6340>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2E50>}
+{'resource': 'wood', 'amount': 1}
+clay pool glassworks stockade stone pit scriptorium stockade {'name': 'Ephesus', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6490>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4C64F0>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6550>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4C6430>}
+{'resource': 'papyrus', 'amount': 1}
+west trading post west trading post scriptorium tavern {'name': 'Halicarnassus', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4C66A0>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6700>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6760>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4C6640>}
+{'resource': 'loom', 'amount': 1}
+east trading post lumber yard barracks tavern CHOICES : 
+dispensary 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+aqueduct 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+laboratory 0 ,0 ,-1  
+dispensary 0 ,0 ,0  
+foundry 0 ,0 ,0  
+aqueduct 0 ,0 ,0  
+quarry 0 ,0 ,0  
+loom 0 ,0 ,0  
+PLAYER 1 play loom
+CHOICES : 
+aqueduct 0 ,0 ,-1  
+press 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+school 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+library 0 ,0 ,-1  
+press 0 ,0 ,0  
+foundry 0 ,0 ,0  
+loom 0 ,0 ,0  
+sawmill 0 ,0 ,0  
+PLAYER 2 play sawmill
+CHOICES : 
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+caravansery 2 ,0 ,0  
+forum 2 ,0 ,0  
+training ground 2 ,0 ,0  
+archery range 2 ,0 ,0  
+caravansery 2 ,0 ,0  
+forum 2 ,0 ,0  
+PLAYER 3 play forum
+CHOICES : 
+temple 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+vineyard 0 ,0 ,-1  
+temple 0 ,0 ,-1  
+bazar 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+press 0 ,0 ,-1  
+temple 6 ,0 ,0  
+sawmill 0 ,0 ,0  
+vineyard 0 ,0 ,0  
+temple 6 ,0 ,0  
+bazar 0 ,0 ,0  
+statue 6 ,0 ,0  
+press 0 ,0 ,0  
+PLAYER 4 play press
+CHOICES : 
+laboratory 0 ,0 ,-1  
+stables 0 ,0 ,-1  
+courthouse 0 ,0 ,-1  
+bazar 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+school 0 ,0 ,-1  
+stables 0 ,0 ,-1  
+courthouse 0 ,0 ,0  
+bazar 0 ,0 ,0  
+school 2 ,0 ,0  
+PLAYER 5 play school
+CHOICES : 
+glassworks 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+vineyard 0 ,0 ,-1  
+glassworks 0 ,0 ,0  
+quarry 0 ,0 ,0  
+clayyard 0 ,0 ,0  
+vineyard 0 ,0 ,0  
+PLAYER 6 play vineyard
+CHOICES : 
+courthouse 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+dispensary 0 ,0 ,-1  
+library 0 ,0 ,-1  
+glassworks 0 ,0 ,-1  
+courthouse 0 ,4 ,0  
+statue 0 ,4 ,0  
+clayyard 0 ,0 ,0  
+forum 0 ,4 ,0  
+dispensary 0 ,6 ,0  
+glassworks 0 ,0 ,0  
+PLAYER 7 play glassworks
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 2 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 5 resource wood 1 clay 1 ore 0 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 1 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 0 tablet 0 shield 1 
+CHOICES : 
+aqueduct 0 ,0 ,-1  
+press 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+school 0 ,0 ,-1  
+loom 0 ,0 ,-1  
+library 0 ,0 ,-1  
+aqueduct 0 ,0 ,0  
+press 0 ,0 ,0  
+foundry 0 ,0 ,0  
+loom 0 ,0 ,0  
+PLAYER 1 play loom
+CHOICES : 
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+caravansery 0 ,0 ,0  
+forum 2 ,0 ,0  
+training ground 2 ,0 ,0  
+archery range 0 ,0 ,0  
+caravansery 0 ,0 ,0  
+Babylon2 0 ,0 ,0  caravansery 
+
+Babylon2 0 ,0 ,0  forum 
+
+Babylon2 0 ,0 ,0  training ground 
+
+Babylon2 0 ,0 ,0  walls 
+
+Babylon2 0 ,0 ,0  archery range 
+
+Babylon2 0 ,0 ,0  caravansery 
+
+PLAYER 2 play step 2
+CHOICES : 
+temple 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+vineyard 0 ,0 ,-1  
+temple 0 ,0 ,-1  
+bazar 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+temple 0 ,0 ,0  
+sawmill 0 ,0 ,0  
+vineyard 0 ,0 ,0  
+temple 0 ,0 ,0  
+bazar 0 ,0 ,0  
+statue 0 ,0 ,0  
+Rhodes2 2 ,0 ,0  temple 
+
+Rhodes2 2 ,0 ,0  sawmill 
+
+Rhodes2 2 ,0 ,0  vineyard 
+
+Rhodes2 2 ,0 ,0  temple 
+
+Rhodes2 2 ,0 ,0  bazar 
+
+Rhodes2 2 ,0 ,0  statue 
+
+PLAYER 3 play step 2
+CHOICES : 
+laboratory 0 ,0 ,-1  
+stables 0 ,0 ,-1  
+courthouse 0 ,0 ,-1  
+bazar 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+stables 0 ,0 ,-1  
+laboratory 4 ,0 ,0  
+stables 0 ,0 ,0  
+courthouse 6 ,0 ,0  
+bazar 0 ,0 ,0  
+walls 0 ,2 ,0  
+stables 0 ,0 ,0  
+PLAYER 4 play stables
+CHOICES : 
+glassworks 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+glassworks 0 ,0 ,0  
+quarry 0 ,0 ,0  
+clayyard 0 ,0 ,0  
+PLAYER 5 play clayyard
+CHOICES : 
+courthouse 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+dispensary 0 ,0 ,-1  
+library 0 ,0 ,-1  
+courthouse 0 ,0 ,0  
+clayyard 0 ,0 ,0  
+forum 4 ,0 ,0  
+library 0 ,0 ,0  
+PLAYER 6 play library
+CHOICES : 
+dispensary 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+aqueduct 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+laboratory 0 ,0 ,-1  
+dispensary 0 ,4 ,0  
+foundry 0 ,0 ,0  
+quarry 0 ,0 ,0  
+laboratory 2 ,4 ,0  
+PLAYER 7 play laboratory
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 0 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 3 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 5 resource wood 1 clay 3 ore 0 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 0 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 2 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 0 shield 1 
+CHOICES : 
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+forum 0 ,2 ,0  
+training ground 2 ,0 ,0  
+PLAYER 1 play training ground
+CHOICES : 
+temple 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+vineyard 0 ,0 ,-1  
+temple 0 ,0 ,-1  
+bazar 0 ,0 ,-1  
+temple 0 ,0 ,0  
+sawmill 0 ,0 ,0  
+vineyard 0 ,0 ,0  
+temple 0 ,0 ,0  
+bazar 0 ,0 ,0  
+PLAYER 2 play bazar
+CHOICES : 
+laboratory 0 ,0 ,-1  
+stables 0 ,0 ,-1  
+courthouse 0 ,0 ,-1  
+bazar 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+laboratory 2 ,0 ,0  
+stables 2 ,0 ,0  
+courthouse 2 ,0 ,0  
+bazar 0 ,0 ,0  
+PLAYER 3 play bazar
+CHOICES : 
+glassworks 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+glassworks 0 ,0 ,0  
+quarry 0 ,0 ,0  
+archery range 6 ,0 ,0  
+training ground 6 ,0 ,0  
+training ground 6 ,0 ,0  
+PLAYER 4 play training ground
+CHOICES : 
+courthouse 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+dispensary 0 ,0 ,-1  
+courthouse 0 ,0 ,0  
+clayyard 0 ,0 ,0  
+forum 0 ,0 ,0  
+PLAYER 5 play forum
+CHOICES : 
+dispensary 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+aqueduct 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+caravansery 4 ,0 ,0  
+foundry 0 ,0 ,0  
+aqueduct 6 ,0 ,0  
+quarry 0 ,0 ,0  
+PLAYER 6 play quarry
+CHOICES : 
+aqueduct 0 ,0 ,-1  
+press 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+school 0 ,0 ,-1  
+library 0 ,0 ,-1  
+aqueduct 6 ,0 ,0  
+press 0 ,0 ,0  
+foundry 0 ,0 ,0  
+school 2 ,0 ,0  
+library 4 ,0 ,0  
+PLAYER 7 play library
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 0 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 3 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 1 wheel 0 tablet 0 shield 4 
+PLAYER 5 resource wood 1 clay 3 ore 0 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 2 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 1 
+CHOICES : 
+temple 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+vineyard 0 ,0 ,-1  
+temple 0 ,0 ,-1  
+temple 2 ,0 ,0  
+sawmill 0 ,0 ,0  
+vineyard 0 ,0 ,0  
+temple 2 ,0 ,0  
+PLAYER 1 play temple
+CHOICES : 
+laboratory 0 ,0 ,-1  
+stables 0 ,0 ,-1  
+courthouse 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+laboratory 0 ,0 ,0  
+stables 0 ,0 ,0  
+PLAYER 2 play stables
+CHOICES : 
+glassworks 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+training ground 0 ,0 ,-1  
+glassworks 0 ,0 ,0  
+quarry 0 ,0 ,0  
+archery range 2 ,0 ,0  
+training ground 2 ,0 ,0  
+PLAYER 3 play training ground
+CHOICES : 
+courthouse 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+dispensary 0 ,0 ,-1  
+courthouse 6 ,0 ,0  
+statue 6 ,0 ,0  
+clayyard 0 ,0 ,0  
+dispensary 0 ,0 ,0  
+PLAYER 4 play dispensary
+CHOICES : 
+dispensary 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+aqueduct 0 ,0 ,-1  
+foundry 0 ,0 ,0  
+PLAYER 5 play foundry
+CHOICES : 
+aqueduct 0 ,0 ,-1  
+press 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+school 0 ,0 ,-1  
+aqueduct 2 ,0 ,0  
+press 0 ,0 ,0  
+foundry 0 ,0 ,0  
+school 2 ,0 ,0  
+PLAYER 6 play school
+CHOICES : 
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+forum 0 ,4 ,0  
+walls 6 ,0 ,0  
+PLAYER 7 play walls
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 2 
+PLAYER 3 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 2 wheel 0 tablet 0 shield 4 
+PLAYER 5 resource wood 1 clay 3 ore 2 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 0 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 3 
+CHOICES : 
+laboratory 0 ,0 ,-1  
+courthouse 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+courthouse 0 ,2 ,0  
+PLAYER 1 play courthouse
+CHOICES : 
+glassworks 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+glassworks 0 ,0 ,0  
+quarry 0 ,0 ,0  
+archery range 0 ,0 ,0  
+PLAYER 2 play archery range
+CHOICES : 
+courthouse 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+clayyard 0 ,0 ,-1  
+courthouse 2 ,0 ,0  
+statue 0 ,0 ,0  
+clayyard 0 ,0 ,0  
+PLAYER 3 play clayyard
+CHOICES : 
+dispensary 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+aqueduct 0 ,0 ,-1  
+dispensary 0 ,0 ,0  
+caravansery 4 ,0 ,0  
+aqueduct 0 ,0 ,0  
+PLAYER 4 play aqueduct
+CHOICES : 
+aqueduct 0 ,0 ,-1  
+press 0 ,0 ,-1  
+foundry 0 ,0 ,-1  
+press 0 ,0 ,0  
+foundry 0 ,0 ,0  
+PLAYER 5 play foundry
+CHOICES : 
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+archery range 0 ,0 ,-1  
+caravansery 4 ,0 ,0  
+forum 4 ,0 ,0  
+archery range 6 ,0 ,0  
+PLAYER 6 play archery range
+CHOICES : 
+temple 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+vineyard 0 ,0 ,-1  
+temple 0 ,2 ,0  
+sawmill 0 ,0 ,0  
+vineyard 0 ,0 ,0  
+PLAYER 7 play vineyard
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 0 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 4 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 2 wheel 0 tablet 0 shield 4 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 0 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 2 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 3 
+CHOICES : 
+glassworks 0 ,0 ,-1  
+quarry 0 ,0 ,-1  
+glassworks 0 ,0 ,0  
+quarry 0 ,0 ,0  
+PLAYER 1 play quarry
+CHOICES : 
+courthouse 0 ,0 ,-1  
+statue 0 ,0 ,-1  
+statue 2 ,0 ,0  
+PLAYER 2 play statue
+CHOICES : 
+dispensary 0 ,0 ,-1  
+caravansery 0 ,0 ,-1  
+dispensary 2 ,0 ,0  
+caravansery 2 ,0 ,0  
+PLAYER 3 play caravansery
+CHOICES : 
+aqueduct 0 ,0 ,-1  
+press 0 ,0 ,-1  
+aqueduct 0 ,0 ,0  
+press 0 ,0 ,0  
+PLAYER 4 play press
+CHOICES : 
+caravansery 0 ,0 ,-1  
+forum 0 ,0 ,-1  
+forum 0 ,0 ,0  
+PLAYER 5 play forum
+CHOICES : 
+temple 0 ,0 ,-1  
+sawmill 0 ,0 ,-1  
+temple 6 ,0 ,0  
+sawmill 0 ,0 ,0  
+PLAYER 6 play sawmill
+CHOICES : 
+laboratory 0 ,0 ,-1  
+walls 0 ,0 ,-1  
+laboratory 2 ,4 ,0  
+walls 6 ,0 ,0  
+PLAYER 7 play walls
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 4 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 0 shield 4 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 2 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 5 
+REMAINING HANDS
+[<mainGameEnv.cardClass.Card object at 0x000002609C717DC0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EB190>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C717EE0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C716CA0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C717E80>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EB1F0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C717A90>]
+AGE2
+{'name': 'Alexandria', 'side': 'A', 'stage': 0, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2700>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2760>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E27C0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E26A0>}
+{'resource': 'glass', 'amount': 1}
+ore vein apothecary loom glassworks clay pit baths loom loom training ground temple courthouse quarry {'name': 'Babylon', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2910>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2970>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E29D0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E28B0>}
+{'resource': 'clay', 'amount': 1}
+altar workshop ore vein mine lumber yard sawmill bazar stables archery range statue {'name': 'Rhodes', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2B20>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2B80>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2BE0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2AC0>}
+{'resource': 'ore', 'amount': 1}
+tree farm theater guard tower altar loom forum bazar training ground clayyard caravansery {'name': 'Giza', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2D60>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2FA0>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2F40>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2D00>}
+{'resource': 'stone', 'amount': 1}
+tavern stone pit baths apothecary press stables training ground dispensary aqueduct press {'name': 'Olympia', 'side': 'B', 'stage': 0, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2DF0>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2D90>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6340>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2E50>}
+{'resource': 'wood', 'amount': 1}
+clay pool glassworks stockade stone pit scriptorium stockade school clayyard forum foundry foundry forum {'name': 'Ephesus', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6490>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4C64F0>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6550>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4C6430>}
+{'resource': 'papyrus', 'amount': 1}
+west trading post west trading post scriptorium tavern vineyard library quarry school archery range sawmill {'name': 'Halicarnassus', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4C66A0>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6700>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6760>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4C6640>}
+{'resource': 'loom', 'amount': 1}
+east trading post lumber yard barracks tavern glassworks laboratory library walls vineyard walls CHOICES : 
+arena 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+university 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+academy 0 ,0 ,-1  
+shipowners guild 0 ,0 ,-1  
+fortification 0 ,0 ,-1  
+arena 0 ,0 ,0  
+observatory 0 ,2 ,0  
+academy 0 ,2 ,0  
+fortification 0 ,2 ,0  
+Alexandria1 0 ,0 ,0  arena 
+
+Alexandria1 0 ,0 ,0  siege workshop 
+
+Alexandria1 0 ,0 ,0  university 
+
+Alexandria1 0 ,0 ,0  observatory 
+
+Alexandria1 0 ,0 ,0  academy 
+
+Alexandria1 0 ,0 ,0  shipowners guild 
+
+Alexandria1 0 ,0 ,0  fortification 
+
+PLAYER 1 play step 1
+CHOICES : 
+haven 0 ,0 ,-1  
+lodge 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+workers guild 0 ,0 ,-1  
+magistrates guild 0 ,0 ,-1  
+senate 0 ,0 ,-1  
+lighthouse 0 ,0 ,-1  
+haven 2 ,0 ,0  
+workers guild 2 ,0 ,0  
+magistrates guild 2 ,0 ,0  
+senate 2 ,0 ,0  
+lighthouse 2 ,0 ,0  
+PLAYER 2 play lighthouse
+CHOICES : 
+lodge 0 ,0 ,-1  
+study 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+arena 0 ,0 ,-1  
+strategists guild 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+gardens 0 ,0 ,-1  
+lodge 0 ,2 ,0  
+study 0 ,2 ,0  
+circus 0 ,0 ,0  
+arena 2 ,0 ,0  
+strategists guild 2 ,0 ,0  
+arsenal 2 ,0 ,0  
+gardens 2 ,0 ,0  
+PLAYER 3 play gardens
+CHOICES : 
+arena 0 ,0 ,-1  
+scientists guild 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+fortification 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+university 0 ,0 ,-1  
+arena 0 ,0 ,0  
+scientists guild 8 ,0 ,0  
+observatory 8 ,0 ,0  
+arsenal 8 ,0 ,0  
+fortification 6 ,0 ,0  
+chamber of commerce 4 ,0 ,0  
+university 6 ,0 ,0  
+PLAYER 4 play university
+CHOICES : 
+town hall 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+lighthouse 0 ,0 ,-1  
+senate 0 ,0 ,-1  
+haven 0 ,0 ,-1  
+spies guild 0 ,0 ,-1  
+academy 0 ,0 ,-1  
+town hall 2 ,0 ,0  
+lighthouse 0 ,0 ,0  
+senate 0 ,2 ,0  
+haven 0 ,0 ,0  
+spies guild 0 ,0 ,0  
+academy 0 ,0 ,0  
+Olympia1 0 ,2 ,0  town hall 
+
+Olympia1 0 ,2 ,0  pantheon 
+
+Olympia1 0 ,2 ,0  lighthouse 
+
+Olympia1 0 ,2 ,0  senate 
+
+Olympia1 0 ,2 ,0  haven 
+
+Olympia1 0 ,2 ,0  spies guild 
+
+Olympia1 0 ,2 ,0  academy 
+
+PLAYER 5 play step 1
+CHOICES : 
+circus 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+builders guild 0 ,0 ,-1  
+philosophers guild 0 ,0 ,-1  
+circus 4 ,0 ,0  
+arsenal 4 ,0 ,0  
+circus 4 ,0 ,0  
+pantheon 10 ,0 ,0  
+siege workshop 6 ,0 ,0  
+builders guild 6 ,0 ,0  
+philosophers guild 8 ,0 ,0  
+PLAYER 6 play philosophers guild
+CHOICES : 
+craftsmens guild 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+town hall 0 ,0 ,-1  
+gardens 0 ,0 ,-1  
+study 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+town hall 0 ,0 ,-1  
+craftsmens guild 4 ,4 ,0  
+palace 4 ,4 ,0  
+town hall 6 ,2 ,0  
+gardens 0 ,4 ,0  
+study 2 ,0 ,0  
+palace 4 ,4 ,0  
+town hall 6 ,2 ,0  
+PLAYER 7 play town hall
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 0 wheel 1 tablet 0 shield 4 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 1 shield 4 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 2 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 5 
+CHOICES : 
+craftsmens guild 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+town hall 0 ,0 ,-1  
+gardens 0 ,0 ,-1  
+study 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+craftsmens guild 0 ,2 ,0  
+Alexandria2 0 ,2 ,0  craftsmens guild 
+
+Alexandria2 0 ,2 ,0  palace 
+
+Alexandria2 0 ,2 ,0  town hall 
+
+Alexandria2 0 ,2 ,0  gardens 
+
+Alexandria2 0 ,2 ,0  study 
+
+Alexandria2 0 ,2 ,0  palace 
+
+PLAYER 1 play step 2
+CHOICES : 
+arena 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+university 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+academy 0 ,0 ,-1  
+shipowners guild 0 ,0 ,-1  
+arena 2 ,0 ,0  
+academy 2 ,0 ,0  
+PLAYER 2 play academy
+CHOICES : 
+haven 0 ,0 ,-1  
+lodge 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+workers guild 0 ,0 ,-1  
+magistrates guild 0 ,0 ,-1  
+senate 0 ,0 ,-1  
+haven 0 ,0 ,0  
+lodge 0 ,2 ,0  
+chamber of commerce 0 ,2 ,0  
+workers guild 2 ,0 ,0  
+magistrates guild 2 ,0 ,0  
+senate 2 ,0 ,0  
+PLAYER 3 play senate
+CHOICES : 
+lodge 0 ,0 ,-1  
+study 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+arena 0 ,0 ,-1  
+strategists guild 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+lodge 0 ,0 ,0  
+study 4 ,0 ,0  
+circus 0 ,0 ,0  
+arena 0 ,0 ,0  
+strategists guild 6 ,0 ,0  
+arsenal 8 ,0 ,0  
+PLAYER 4 play arsenal
+CHOICES : 
+arena 0 ,0 ,-1  
+scientists guild 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+fortification 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+arena 2 ,0 ,0  
+scientists guild 0 ,2 ,0  
+arsenal 0 ,2 ,0  
+fortification 0 ,0 ,0  
+chamber of commerce 2 ,0 ,0  
+Olympia2 2 ,0 ,0  arena 
+
+Olympia2 2 ,0 ,0  scientists guild 
+
+Olympia2 2 ,0 ,0  observatory 
+
+Olympia2 2 ,0 ,0  arsenal 
+
+Olympia2 2 ,0 ,0  fortification 
+
+Olympia2 2 ,0 ,0  chamber of commerce 
+
+PLAYER 5 play step 2
+CHOICES : 
+town hall 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+lighthouse 0 ,0 ,-1  
+senate 0 ,0 ,-1  
+haven 0 ,0 ,-1  
+spies guild 0 ,0 ,-1  
+town hall 2 ,0 ,0  
+pantheon 10 ,0 ,0  
+lighthouse 2 ,0 ,0  
+senate 0 ,0 ,0  
+haven 4 ,0 ,0  
+spies guild 8 ,0 ,0  
+PLAYER 6 play spies guild
+CHOICES : 
+circus 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+builders guild 0 ,0 ,-1  
+circus 6 ,2 ,0  
+arsenal 2 ,2 ,0  
+circus 6 ,2 ,0  
+pantheon 2 ,6 ,0  
+siege workshop 0 ,0 ,0  
+builders guild 4 ,4 ,0  
+PLAYER 7 play builders guild
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 2 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 1 wheel 1 tablet 0 shield 4 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 0 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 1 shield 7 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 2 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 5 
+CHOICES : 
+circus 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+circus 0 ,0 ,0  
+arsenal 2 ,0 ,0  
+circus 0 ,0 ,0  
+pantheon 0 ,0 ,0  
+siege workshop 0 ,2 ,0  
+PLAYER 1 play siege workshop
+CHOICES : 
+craftsmens guild 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+town hall 0 ,0 ,-1  
+gardens 0 ,0 ,-1  
+study 0 ,0 ,-1  
+craftsmens guild 2 ,0 ,0  
+town hall 0 ,2 ,0  
+gardens 0 ,0 ,0  
+PLAYER 2 play gardens
+CHOICES : 
+arena 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+university 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+shipowners guild 0 ,0 ,-1  
+arena 2 ,0 ,0  
+siege workshop 2 ,0 ,0  
+observatory 2 ,0 ,0  
+PLAYER 3 play observatory
+CHOICES : 
+haven 0 ,0 ,-1  
+lodge 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+workers guild 0 ,0 ,-1  
+magistrates guild 0 ,0 ,-1  
+haven 6 ,0 ,0  
+lodge 0 ,0 ,0  
+chamber of commerce 4 ,0 ,0  
+workers guild 8 ,0 ,0  
+magistrates guild 8 ,0 ,0  
+PLAYER 4 play magistrates guild
+CHOICES : 
+lodge 0 ,0 ,-1  
+study 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+arena 0 ,0 ,-1  
+strategists guild 0 ,0 ,-1  
+study 0 ,0 ,0  
+arena 2 ,0 ,0  
+PLAYER 5 play arena
+CHOICES : 
+arena 0 ,0 ,-1  
+scientists guild 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+fortification 0 ,0 ,-1  
+arena 2 ,0 ,0  
+scientists guild 4 ,0 ,0  
+observatory 8 ,0 ,0  
+arsenal 4 ,0 ,0  
+fortification 6 ,0 ,0  
+PLAYER 6 play fortification
+CHOICES : 
+town hall 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+lighthouse 0 ,0 ,-1  
+senate 0 ,0 ,-1  
+haven 0 ,0 ,-1  
+town hall 6 ,2 ,0  
+pantheon 2 ,6 ,0  
+lighthouse 2 ,0 ,0  
+senate 0 ,0 ,0  
+haven 0 ,2 ,0  
+PLAYER 7 play haven
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 5 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 1 wheel 1 tablet 0 shield 4 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 1 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 1 shield 7 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 5 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 5 
+CHOICES : 
+town hall 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+lighthouse 0 ,0 ,-1  
+senate 0 ,0 ,-1  
+pantheon 0 ,0 ,0  
+lighthouse 0 ,0 ,0  
+senate 2 ,0 ,0  
+PLAYER 1 play senate
+CHOICES : 
+circus 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+circus 2 ,0 ,0  
+arsenal 2 ,0 ,0  
+circus 2 ,0 ,0  
+PLAYER 2 play circus
+CHOICES : 
+craftsmens guild 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+town hall 0 ,0 ,-1  
+study 0 ,0 ,-1  
+craftsmens guild 2 ,0 ,0  
+palace 2 ,0 ,0  
+town hall 2 ,0 ,0  
+study 0 ,2 ,0  
+PLAYER 3 play study
+CHOICES : 
+arena 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+university 0 ,0 ,-1  
+shipowners guild 0 ,0 ,-1  
+arena 0 ,0 ,0  
+siege workshop 8 ,0 ,0  
+university 6 ,0 ,0  
+shipowners guild 8 ,0 ,0  
+PLAYER 4 play shipowners guild
+CHOICES : 
+haven 0 ,0 ,-1  
+lodge 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+workers guild 0 ,0 ,-1  
+haven 0 ,0 ,0  
+chamber of commerce 2 ,0 ,0  
+workers guild 0 ,0 ,0  
+PLAYER 5 play workers guild
+CHOICES : 
+lodge 0 ,0 ,-1  
+study 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+strategists guild 0 ,0 ,-1  
+lodge 6 ,0 ,0  
+study 0 ,0 ,0  
+circus 4 ,0 ,0  
+strategists guild 6 ,0 ,0  
+PLAYER 6 play strategists guild
+CHOICES : 
+arena 0 ,0 ,-1  
+scientists guild 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+arena 4 ,2 ,0  
+scientists guild 4 ,4 ,0  
+observatory 0 ,0 ,0  
+arsenal 2 ,2 ,0  
+PLAYER 7 play arsenal
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 0 tablet 0 shield 5 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 1 wheel 1 tablet 0 shield 7 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 2 tablet 0 shield 5 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 1 shield 7 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 2 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 5 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 8 
+CHOICES : 
+arena 0 ,0 ,-1  
+scientists guild 0 ,0 ,-1  
+observatory 0 ,0 ,-1  
+arena 0 ,0 ,0  
+observatory 0 ,2 ,0  
+PLAYER 1 play observatory
+CHOICES : 
+town hall 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+lighthouse 0 ,0 ,-1  
+town hall 0 ,2 ,0  
+lighthouse 2 ,0 ,0  
+PLAYER 2 play lighthouse
+CHOICES : 
+circus 0 ,0 ,-1  
+arsenal 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+circus 0 ,0 ,0  
+arsenal 2 ,0 ,0  
+PLAYER 3 play arsenal
+CHOICES : 
+craftsmens guild 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+town hall 0 ,0 ,-1  
+craftsmens guild 4 ,0 ,0  
+town hall 2 ,0 ,0  
+PLAYER 4 play town hall
+CHOICES : 
+arena 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+university 0 ,0 ,-1  
+arena 2 ,0 ,0  
+siege workshop 0 ,0 ,0  
+university 0 ,2 ,0  
+PLAYER 5 play university
+CHOICES : 
+haven 0 ,0 ,-1  
+lodge 0 ,0 ,-1  
+chamber of commerce 0 ,0 ,-1  
+haven 4 ,0 ,0  
+lodge 6 ,0 ,0  
+chamber of commerce 4 ,0 ,0  
+PLAYER 6 play chamber of commerce
+CHOICES : 
+lodge 0 ,0 ,-1  
+study 0 ,0 ,-1  
+circus 0 ,0 ,-1  
+lodge 2 ,4 ,0  
+study 2 ,0 ,0  
+circus 6 ,2 ,0  
+PLAYER 7 play circus
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 1 tablet 0 shield 5 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 1 wheel 1 tablet 0 shield 7 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 2 tablet 0 shield 8 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 1 shield 7 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 3 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 5 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 0 wheel 1 tablet 1 shield 11 
+CHOICES : 
+lodge 0 ,0 ,-1  
+study 0 ,0 ,-1  
+PLAYER 1 discard study
+CHOICES : 
+arena 0 ,0 ,-1  
+scientists guild 0 ,0 ,-1  
+arena 2 ,0 ,0  
+scientists guild 0 ,2 ,0  
+PLAYER 2 play scientists guild
+CHOICES : 
+town hall 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+town hall 2 ,0 ,0  
+PLAYER 3 play town hall
+CHOICES : 
+circus 0 ,0 ,-1  
+pantheon 0 ,0 ,-1  
+circus 0 ,0 ,0  
+PLAYER 4 play circus
+CHOICES : 
+craftsmens guild 0 ,0 ,-1  
+palace 0 ,0 ,-1  
+craftsmens guild 2 ,0 ,0  
+PLAYER 5 play craftsmens guild
+CHOICES : 
+arena 0 ,0 ,-1  
+siege workshop 0 ,0 ,-1  
+arena 2 ,0 ,0  
+siege workshop 6 ,0 ,0  
+PLAYER 6 play siege workshop
+CHOICES : 
+haven 0 ,0 ,-1  
+lodge 0 ,0 ,-1  
+haven 0 ,2 ,0  
+lodge 2 ,4 ,0  
+PLAYER 7 play lodge
+{1: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E9490>, 2: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2820>, 3: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2A30>, 4: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2C40>, 5: <mainGameEnv.PlayerClass.Player object at 0x000002609C4E2EE0>, 6: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C63A0>, 7: <mainGameEnv.PlayerClass.Player object at 0x000002609C4C65B0>}
+PLAYER 1 resource wood 0 clay 0 ore 1 stone 2 papyrus 0 glass 2 loom 3 compass 1 wheel 1 tablet 0 shield 5 
+PLAYER 2 resource wood 3 clay 1 ore 1 stone 0 papyrus 0 glass 0 loom 0 compass 1 wheel 1 tablet 0 shield 7 
+PLAYER 3 resource wood 0 clay 2 ore 1 stone 0 papyrus 0 glass 0 loom 1 compass 0 wheel 2 tablet 0 shield 8 
+PLAYER 4 resource wood 0 clay 0 ore 0 stone 2 papyrus 2 glass 0 loom 0 compass 2 wheel 0 tablet 1 shield 10 
+PLAYER 5 resource wood 1 clay 3 ore 4 stone 1 papyrus 0 glass 1 loom 0 compass 0 wheel 0 tablet 3 shield 2 
+PLAYER 6 resource wood 2 clay 0 ore 0 stone 2 papyrus 1 glass 0 loom 0 compass 0 wheel 0 tablet 3 shield 8 
+PLAYER 7 resource wood 1 clay 0 ore 0 stone 0 papyrus 0 glass 1 loom 1 compass 1 wheel 1 tablet 1 shield 11 
+REMAINING HANDS
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EBEE0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4E24C0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EBD00>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EB9A0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EB6A0>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EBF40>]
+[<mainGameEnv.cardClass.Card object at 0x000002609C4EBE20>]
+AGE3
+{'name': 'Alexandria', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2700>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2760>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E27C0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E26A0>}
+{'resource': 'glass', 'amount': 1}
+ore vein apothecary loom glassworks clay pit baths loom loom training ground temple courthouse quarry siege workshop senate observatory {'name': 'Babylon', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2910>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2970>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E29D0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E28B0>}
+{'resource': 'clay', 'amount': 1}
+altar workshop ore vein mine lumber yard sawmill bazar stables archery range statue lighthouse academy gardens circus lighthouse scientists guild {'name': 'Rhodes', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2B20>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2B80>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2BE0>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2AC0>}
+{'resource': 'ore', 'amount': 1}
+tree farm theater guard tower altar loom forum bazar training ground clayyard caravansery gardens senate observatory study arsenal town hall {'name': 'Giza', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2D60>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2FA0>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2F40>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2D00>}
+{'resource': 'stone', 'amount': 1}
+tavern stone pit baths apothecary press stables training ground dispensary aqueduct press university arsenal magistrates guild shipowners guild town hall circus {'name': 'Olympia', 'side': 'B', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2DF0>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4E2D90>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6340>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4E2E50>}
+{'resource': 'wood', 'amount': 1}
+clay pool glassworks stockade stone pit scriptorium stockade school clayyard forum foundry foundry forum arena workers guild university craftsmens guild {'name': 'Ephesus', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6490>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4C64F0>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6550>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4C6430>}
+{'resource': 'papyrus', 'amount': 1}
+west trading post west trading post scriptorium tavern vineyard library quarry school archery range sawmill philosophers guild spies guild fortification strategists guild chamber of commerce siege workshop {'name': 'Halicarnassus', 'side': 'A', 'stage': 2, 'step': {1: <mainGameEnv.stageClass.Stage object at 0x000002609C4C66A0>, 2: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6700>, 3: <mainGameEnv.stageClass.Stage object at 0x000002609C4C6760>}, 'beginResource': <mainGameEnv.resourceClass.Resource object at 0x000002609C4C6640>}
+{'resource': 'loom', 'amount': 1}
+east trading post lumber yard barracks tavern glassworks laboratory library walls vineyard walls town hall builders guild haven arsenal circus lodge <mainGameEnv.stageClass.Stage object at 0x000002609C4E2700>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2760>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2910>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2970>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2B20>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2B80>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2D60>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2FA0>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2DF0>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4E2D90>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4C6490>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4C64F0>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4C66A0>
+<mainGameEnv.stageClass.Stage object at 0x000002609C4C6700>
+SCOREBOARD
+Player 4 with score 48
+Player 2 with score 44
+Player 3 with score 44
+Player 7 with score 42
+Player 1 with score 36
+Player 6 with score 33
+Player 5 with score 27
