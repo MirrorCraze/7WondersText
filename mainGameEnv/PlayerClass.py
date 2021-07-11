@@ -42,7 +42,7 @@ class Player:
         self.left = leftPlayer
         self.right = rightPlayer
     def printPlayer(self):
-        #print(self.__dict__)
+        print(self.__dict__)
         self.wonders.printWonder()
         for card in self.card:
             print(card.name, end = " ")
@@ -324,7 +324,7 @@ class Player:
         if any(cardExist for cardExist in self.hand if cardExist.name == card.name):
             self.hand.remove(card)
 
-    def addedCardSys(self,cardGetResource):
+    def addedCardSys(self,cardGetResource,selectedCard):
         if cardGetResource["type"] == "choose":
             if isinstance(selectedCard, Stage):
                 self.chooseStage.append(selectedCard)
@@ -349,6 +349,11 @@ class Player:
             stageCard = selectedCard[4]
         selectedCard = selectedCard[0]
         if action == -1:
+            print("SELECT")
+            if isinstance(selectedCard,Card):
+                print(selectedCard.name)
+            else:
+                print(selectedCard.stage)
             self.deleteCardFromHand(selectedCard)
             self.coin += 3
             return selectedCard, action
@@ -369,7 +374,7 @@ class Player:
             for resource in selectedCard.getResource["resource"]:
                 if resource["type"] == "mixed":
                     for innerRes in resource["resource"]:
-                        self.addedCardSys(innerRes)
+                        self.addedCardSys(innerRes,selectedCard)
                 else:
                     #print(resource["type"])
                     self.addedCardSys(resource)
@@ -379,7 +384,54 @@ class Player:
             else:
                 self.choosecard.append(selectedCard)
         else:
-            self.addedCardSys(selectedCard.getResource)
+            self.addedCardSys(selectedCard.getResource,selectedCard)
+        return selectedCard, action
+    def playChosenCardFake(self,selectedCard):
+        self.lastPlayEffect = None
+        leftPrice = selectedCard[1]
+        rightPrice = selectedCard[2]
+        action = selectedCard[3]
+        stageCard = None
+        if isinstance(selectedCard[0], Stage):
+            stageCard = selectedCard[4]
+        selectedCard = selectedCard[0]
+        if action == -1:
+            print("SELECT")
+            if isinstance(selectedCard,Card):
+                print(selectedCard.name)
+            else:
+                print(selectedCard.stage)
+            #self.deleteCardFromHand(selectedCard)
+            self.coin += 3
+            return selectedCard, action
+        elif action == 1:
+            self.freeStructure = False
+        if isinstance(selectedCard, Card):
+            #print(selectedCard.name)
+            #self.deleteCardFromHand(selectedCard)
+            self.card.append(selectedCard)
+            self.color[selectedCard.color] += 1
+            self.lastPlayColor = selectedCard.color
+        elif isinstance(selectedCard, Stage):
+            #self.deleteCardFromHand(stageCard)
+            self.wonders.stage += 1
+            #print(self.wonders.name)
+            #print(self.wonders.step[self.wonders.stage].printCard())
+        if selectedCard.getResource["type"] == "mixed":
+            for resource in selectedCard.getResource["resource"]:
+                if resource["type"] == "mixed":
+                    for innerRes in resource["resource"]:
+                        self.addedCardSys(innerRes,selectedCard)
+                else:
+                    #print(resource["type"])
+                    self.addedCardSys(resource,selectedCard)
+        elif selectedCard.getResource["type"] == "choose":
+            if isinstance(selectedCard, Stage):
+                self.chooseStage.append(selectedCard)
+            else:
+                self.choosecard.append(selectedCard)
+        else:
+            self.addedCardSys(selectedCard.getResource,selectedCard)
         return selectedCard, action
     def playFromEffect(self,cardList,effect): #playSeventhCard or buildDiscarded
         if effect == "playSeventhCard":
@@ -400,20 +452,20 @@ class Player:
                         choices.append([steps[existedStage], left, right, 0, card])
                 #print("APPENDED STAGES")
             persona = self.personality
-            selectedCard = choices[self.personality.make_choice(persona, options=choices)]
+            selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
             return playChosenCard(selectedCard)
         elif effect == "buildDiscarded":
             choices = []
             for card in cardList:
                 choices.append([card,0,0,0])
             persona = self.personality
-            selectedCard = choices[self.personality.make_choice(persona, options=choices)]
+            selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
             return playChosenCard(selectedCard)
         else:
             print("something wrong")
             exit(-1)
 
-    def playCard(self):
+    def playCard(self,age):
         self.lastPlayEffect = None
         self.endTurnEffect = None
         choices = []
@@ -449,7 +501,9 @@ class Player:
         #print(len(choices))
         #print(choices[0].printCard())
         persona = self.personality
-        selectedCard = choices[self.personality.make_choice(persona,options=choices)]
+        print("age" + str(age))
+        print(persona.make_choice(self = persona,player = self,age = age,options=choices))
+        selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
         return self.playChosenCard(selectedCard)
 
 

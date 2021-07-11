@@ -9,9 +9,6 @@ from mainGameEnv.resourceClass import Resource
 from mainGameEnv.Personality import Personality, StupidAI
 from mainGameEnv.stageClass import Stage
 import sys
-
-
-
 def init(player):
     fileOper = open('../Card/card_list.json', 'rt')
     cardList = json.load(fileOper)
@@ -74,7 +71,7 @@ if __name__ == "__main__":
         for i in range(0,6):
             for j in range(len(playerList)):
                 #print("j" + str(j))
-                card,action = playerList[j+1].playCard()
+                card,action = playerList[j+1].playCard(age)
                 if action == -1:#card discarded
                     discarded.append(card)
                     print("PLAYER {} discard {}".format(j + 1, card.name))
