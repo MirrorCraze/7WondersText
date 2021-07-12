@@ -210,10 +210,10 @@ class Player:
         elif effect == "sideManuPosts":
             self.eastTradePrices["papyrus"] = 1
             self.eastTradePrices["glass"] = 1
-            self.eastTradePrices["room"] = 1
+            self.eastTradePrices["loom"] = 1
             self.westTradePrices["papyrus"] = 1
             self.westTradePrices["glass"] = 1
-            self.westTradePrices["room"] = 1
+            self.westTradePrices["loom"] = 1
         elif effect == "threeBrownOneCoin":
             self.coin += self.left.color["brown"] + self.color["brown"] + self.right.color["brown"]
         elif effect == "brownOneCoinOneVP":
