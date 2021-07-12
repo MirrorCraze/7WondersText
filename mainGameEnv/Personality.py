@@ -37,6 +37,7 @@ class StupidAI(Personality):
                     nonDiscard.append(choicesIndex)
             nonDiscarded = [option for option in options if option[3] != -1]
             if not nonDiscarded:  # have only choice by discarding
+                print("OPTIONS LEN" + str(len(options)))
                 return random.choice(range(len(options)))
             for choicesIndex in range(len(options)):  # Select Card that gives more than 1 resource. If there are multiple cards, select one randomly
                 if type(options[choicesIndex][0]).__name__ == "Card":
@@ -93,7 +94,9 @@ class StupidAI(Personality):
             # play random non-discarded choice
             return random.choice(nonDiscard)
         else:  # age 3. Simulate all plays, greedy by most points.
-            basePoints = player.endGameCal()
+            beforePlayer = copy.deepcopy(player)
+            beforePlayer.hand = copy.deepcopy(player.hand)
+            basePoints = beforePlayer.endGameCal()
             gainPoints = -1
             selected = []
             for choicesIndex in range(len(options)):
@@ -122,6 +125,7 @@ class Human(Personality):
     def __init__(self):
         pass
 
-    def make_choice(self, options):
+    def make_choice(self, player, age, options):
+        print("Select Choices start from 0 from the top")
         return int(stdin.readline())
 

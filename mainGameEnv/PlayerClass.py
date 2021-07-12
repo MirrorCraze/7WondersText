@@ -198,22 +198,22 @@ class Player:
             self.activateEffect("eastTradingRaws")
             self.activateEffect("westTradingRaws")
         elif effect == "eastTradingRaws":
-            eastTradePrices["wood"] = 1
-            eastTradePrices["clay"] = 1
-            eastTradePrices["ore"] = 1
-            eastTradePrices["stone"] = 1
+            self.eastTradePrices["wood"] = 1
+            self.eastTradePrices["clay"] = 1
+            self.eastTradePrices["ore"] = 1
+            self.eastTradePrices["stone"] = 1
         elif effect == "westTradingRaws":
-            westTradePrices["wood"] = 1
-            westTradePrices["clay"] = 1
-            westTradePrices["ore"] = 1
-            westTradePrices["stone"] = 1
+            self.westTradePrices["wood"] = 1
+            self.westTradePrices["clay"] = 1
+            self.westTradePrices["ore"] = 1
+            self.westTradePrices["stone"] = 1
         elif effect == "sideManuPosts":
-            eastTradePrices["papyrus"] = 1
-            eastTradePrices["glass"] = 1
-            eastTradePrices["room"] = 1
-            westTradePrices["papyrus"] = 1
-            westTradePrices["glass"] = 1
-            westTradePrices["room"] = 1
+            self.eastTradePrices["papyrus"] = 1
+            self.eastTradePrices["glass"] = 1
+            self.eastTradePrices["room"] = 1
+            self.westTradePrices["papyrus"] = 1
+            self.westTradePrices["glass"] = 1
+            self.westTradePrices["room"] = 1
         elif effect == "threeBrownOneCoin":
             self.coin += self.left.color["brown"] + self.color["brown"] + self.right.color["brown"]
         elif effect == "brownOneCoinOneVP":
@@ -257,27 +257,37 @@ class Player:
             return self.wonders.stage
         elif effect == "greyTwoCoinTwoVP":
             return self.color["grey"] * 2
+        else:
+            return 0
 
     def scienceVP(self,chooseScience):
         maxScience = 0
-        compass = 0
-        wheel = 0
-        tablet = 0
-        for addCom in range(0,chooseScience+1):
-            for addWheel in range(0,chooseScience+1-addCom):
-                addTab = chooseScience+1-addCom-addWheel
+        compass = self.resource["compass"]
+        wheel = self.resource["wheel"]
+        tablet = self.resource["tablet"]
+        if chooseScience == 0:
+            return compass**2 + wheel**2 + tablet**2 + min(compass,wheel,tablet)*7
+        for addCom in range(0,chooseScience):
+            for addWheel in range(0,chooseScience-addCom):
+                addTab = chooseScience-addCom-addWheel
                 compass = addCom + self.resource["compass"]
                 wheel = addWheel + self.resource["wheel"]
                 tablet = addTab + self.resource["tablet"]
                 points = compass**2 + wheel**2 + tablet**2 + min(compass,wheel,tablet)*7
                 if points > maxScience:
                     maxScience = points
+
         return maxScience
     def endGameCal(self):
+        extraPoint = 0
+        print("Player" + str(self.player))
+        print("Before" + str(self.VP))
         #military
-        self.VP +=self.warVP - self.warLoseVP
+        extraPoint +=self.warVP - self.warLoseVP
+        print("War : " + str(self.warVP - self.warLoseVP))
         #coin : 3coins -> 1VP
-        self.VP += int(self.coin/3)
+        extraPoint += int(self.coin/3)
+        print("Coin : " + str(int(self.coin/3)))
         #wonders VP are automatically added when wonders are played
         #effect cards activation
         copyPurple = False
@@ -285,7 +295,7 @@ class Player:
             if effect == "copyPurpleNeighbor":
                 copyPurple = True
             else:
-                self.VP += VPFromEffect(effect)
+                extraPoint += self.VPFromEffect(effect)
         maxCopy = 0
         scienceNeighbor = False
         if copyPurple:
@@ -310,7 +320,6 @@ class Player:
             if card.getResource["type"] == "choose" and card.getResource["resource"][0]["type"] == "compass":
                 chooseScience +=1
         for i in range(0,self.wonders.stage):
-            print(self.wonders.step[i+1])
             if self.wonders.step[i+1].getResource["type"] == "choose" and self.wonders.step[i+1].getResource["resource"][0]["type"] == "compass":
                 chooseScience +=1
         maxScience = self.scienceVP(chooseScience)
@@ -318,8 +327,9 @@ class Player:
             copyScience = self.scienceVP(chooseScience+1)
             if maxScience + maxCopy < copyScience:
                 maxScience = copyScience
-        self.VP += maxScience
-        return self.VP
+        print("Science : " + str(maxScience))
+        extraPoint += maxScience
+        return self.VP + extraPoint
     def deleteCardFromHand(self,card):
         if any(cardExist for cardExist in self.hand if cardExist.name == card.name):
             self.hand.remove(card)
@@ -337,7 +347,8 @@ class Player:
         elif cardGetResource["type"] != "effect":
             self.resource[cardGetResource["type"]] += cardGetResource["amount"]
         else:
-            # self.activateEffect(selectedCard.getResource["effect"])
+
+            self.activateEffect(cardGetResource["effect"])
             self.lastPlayEffect = cardGetResource["effect"]
     def playChosenCard(self,selectedCard):
         self.lastPlayEffect = None
@@ -377,7 +388,7 @@ class Player:
                         self.addedCardSys(innerRes,selectedCard)
                 else:
                     #print(resource["type"])
-                    self.addedCardSys(resource)
+                    self.addedCardSys(resource,selectedCard)
         elif selectedCard.getResource["type"] == "choose":
             if isinstance(selectedCard, Stage):
                 self.chooseStage.append(selectedCard)
@@ -433,7 +444,7 @@ class Player:
         else:
             self.addedCardSys(selectedCard.getResource,selectedCard)
         return selectedCard, action
-    def playFromEffect(self,cardList,effect): #playSeventhCard or buildDiscarded
+    def playFromEffect(self,cardList,effect,age): #playSeventhCard or buildDiscarded
         if effect == "playSeventhCard":
             card = cardList[0]
             choices = []
@@ -453,14 +464,14 @@ class Player:
                 #print("APPENDED STAGES")
             persona = self.personality
             selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
-            return playChosenCard(selectedCard)
+            return self.playChosenCard(selectedCard)
         elif effect == "buildDiscarded":
             choices = []
             for card in cardList:
                 choices.append([card,0,0,0])
             persona = self.personality
             selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
-            return playChosenCard(selectedCard)
+            return self.playChosenCard(selectedCard)
         else:
             print("something wrong")
             exit(-1)
@@ -501,7 +512,6 @@ class Player:
         #print(len(choices))
         #print(choices[0].printCard())
         persona = self.personality
-        print("age" + str(age))
         print(persona.make_choice(self = persona,player = self,age = age,options=choices))
         selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
         return self.playChosenCard(selectedCard)
