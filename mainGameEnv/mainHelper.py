@@ -1,6 +1,6 @@
-from mainGameEnv.cardClass import Card
-from mainGameEnv.PlayerClass import Player
-from mainGameEnv.resourceClass import Resource
+from cardClass import Card
+from PlayerClass import Player
+from resourceClass import Resource
 import random
 def resBuild(cardJSON):
     #print("Construct resource from {} type with {} amount".format(cardJSON['type'],cardJSON['amount']))
@@ -24,7 +24,6 @@ def filterPlayer(jsonCard, playerNum):
 def buildCard(name, color, payResource, getResource):
     return Card(name, color, payResource, getResource)
 def rotateHand(playerList,age):
-    print(playerList)
     handList = []
     for i in range(1,len(playerList)+1):
         handList.append(playerList[i].hand)

@@ -1,9 +1,9 @@
-from mainGameEnv.WonderClass import Wonder
-from mainGameEnv.Personality import Personality
-from mainGameEnv.resourceClass import Resource
-from mainGameEnv.cardClass import Card
-from mainGameEnv.stageClass import Stage
-from mainGameEnv import mainHelper
+from WonderClass import Wonder
+from Personality import Personality,Human
+from resourceClass import Resource
+from cardClass import Card
+from stageClass import Stage
+import mainHelper
 import operator
 class ResourceBFS:
     def __init__(self,accuArr,remainArr):
@@ -185,7 +185,11 @@ class Player:
                 return left,right
             else:
                 return -1,-1
-
+    def findCardFromHand(self,cardName):
+        for card in self.hand:
+            if card.name == cardName:
+                return card
+        return None
     def activateEffect(self,effect):
         if effect == "freeStructure":
             self.freeStructure = True
@@ -280,14 +284,14 @@ class Player:
         return maxScience
     def endGameCal(self):
         extraPoint = 0
-        print("Player" + str(self.player))
-        print("Before" + str(self.VP))
+        #print("Player" + str(self.player))
+        #print("Before" + str(self.VP))
         #military
         extraPoint +=self.warVP - self.warLoseVP
-        print("War : " + str(self.warVP - self.warLoseVP))
+        #print("War : " + str(self.warVP - self.warLoseVP))
         #coin : 3coins -> 1VP
         extraPoint += int(self.coin/3)
-        print("Coin : " + str(int(self.coin/3)))
+        #print("Coin : " + str(int(self.coin/3)))
         #wonders VP are automatically added when wonders are played
         #effect cards activation
         copyPurple = False
@@ -327,12 +331,14 @@ class Player:
             copyScience = self.scienceVP(chooseScience+1)
             if maxScience + maxCopy < copyScience:
                 maxScience = copyScience
-        print("Science : " + str(maxScience))
+        #print("Science : " + str(maxScience))
         extraPoint += maxScience
         return self.VP + extraPoint
     def deleteCardFromHand(self,card):
         if any(cardExist for cardExist in self.hand if cardExist.name == card.name):
             self.hand.remove(card)
+        else:
+            return -1
 
     def addedCardSys(self,cardGetResource,selectedCard):
         if cardGetResource["type"] == "choose":
@@ -347,9 +353,9 @@ class Player:
         elif cardGetResource["type"] != "effect":
             self.resource[cardGetResource["type"]] += cardGetResource["amount"]
         else:
-
             self.activateEffect(cardGetResource["effect"])
             self.lastPlayEffect = cardGetResource["effect"]
+            return
     def playChosenCard(self,selectedCard):
         self.lastPlayEffect = None
         leftPrice = selectedCard[1]
@@ -360,24 +366,24 @@ class Player:
             stageCard = selectedCard[4]
         selectedCard = selectedCard[0]
         if action == -1:
-            print("SELECT")
-            if isinstance(selectedCard,Card):
-                print(selectedCard.name)
-            else:
-                print(selectedCard.stage)
-            self.deleteCardFromHand(selectedCard)
+            #print("SELECT")
+            # if isinstance(selectedCard,Card):
+            #     print(selectedCard.name)
+            # else:
+            #     print(selectedCard.stage)
+            status = self.deleteCardFromHand(selectedCard)
             self.coin += 3
             return selectedCard, action
         elif action == 1:
             self.freeStructure = False
         if isinstance(selectedCard, Card):
             #print(selectedCard.name)
-            self.deleteCardFromHand(selectedCard)
+            status = self.deleteCardFromHand(selectedCard)
             self.card.append(selectedCard)
             self.color[selectedCard.color] += 1
             self.lastPlayColor = selectedCard.color
         elif isinstance(selectedCard, Stage):
-            self.deleteCardFromHand(stageCard)
+            status = self.deleteCardFromHand(stageCard)
             self.wonders.stage += 1
             #print(self.wonders.name)
             #print(self.wonders.step[self.wonders.stage].printCard())
@@ -407,11 +413,11 @@ class Player:
             stageCard = selectedCard[4]
         selectedCard = selectedCard[0]
         if action == -1:
-            print("SELECT")
-            if isinstance(selectedCard,Card):
-                print(selectedCard.name)
-            else:
-                print(selectedCard.stage)
+            # print("SELECT")
+            # if isinstance(selectedCard,Card):
+            #     print(selectedCard.name)
+            # else:
+            #     print(selectedCard.stage)
             #self.deleteCardFromHand(selectedCard)
             self.coin += 3
             return selectedCard, action
@@ -470,7 +476,8 @@ class Player:
             for card in cardList:
                 choices.append([card,0,0,0])
             persona = self.personality
-            selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
+            selectedCard = choices[persona.make_choice(player = self,age =age, options=choices)]
+            self.hand.append(selectedCard[0])
             return self.playChosenCard(selectedCard)
         else:
             print("something wrong")
@@ -499,30 +506,33 @@ class Player:
                 for card in self.hand:
                     choices.append([steps[existedStage],left,right,0,card])
             #print("APPENDED STAGES")
-        print("CHOICES : ")
-        for choice in choices:
-            if isinstance(choice[0],Card):
-                print(choice[0].name, end = " ")
-            else:
-                print(self.wonders.name + str(choice[0].stage), end = " ")
-            print("{} ,{} ,{} ".format(choice[1],choice[2],choice[3]),end = " ")
-            if isinstance(choice[0],Stage):
-                print("{} ".format(choice[4].name))
-            print()
+
+        if isinstance(self.personality, Human):
+            print("Human {} turn".format(self.player))
+            print("{} CHOICES, selected from 0-{} : ".format(len(choices),len(choices)-1))
+            print("Num : name, payToLeft, payToRight, action, [card used on building stages]")
+            counter = 0
+            for choice in choices:
+                print("{} :".format(counter), end=" ")
+                if isinstance(choice[0],Card):
+                    print(choice[0].name, end = " ")
+                else:
+                    print(self.wonders.name + str(choice[0].stage), end = " ")
+                print(",{} ,{} ,".format(choice[1],choice[2]),end = " ")
+                if choice[3] == 0:
+                    print("play normal",end = " ")
+                elif choice[3] == 1:
+                    print("play with effects",end = " ")
+                elif choice[3] == -1:
+                    print("discard",end = " ")
+                if isinstance(choice[0],Stage):
+                    print("with {} ".format(choice[4].name),end = " ")
+                print()
+                counter+=1
         #print(len(choices))
         #print(choices[0].printCard())
         persona = self.personality
-        print(persona.make_choice(self = persona,player = self,age = age,options=choices))
-        selectedCard = choices[persona.make_choice(self = persona,player = self,age =age, options=choices)]
+        #print("age" + str(age))
+        #print(persona.make_choice(self = persona,player = self,age = age,options=choices))
+        selectedCard = choices[persona.make_choice(player = self,age =age, options=choices)]
         return self.playChosenCard(selectedCard)
-
-
-
-
-
-
-
-
-
-
-

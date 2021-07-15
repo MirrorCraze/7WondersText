@@ -1,9 +1,8 @@
-import copy
 import random
 from sys import stdin
 from copy import deepcopy
-from mainGameEnv.stageClass import Stage
-from mainGameEnv.cardClass import Card
+from stageClass import Stage
+from cardClass import Card
 
 
 class Personality:
@@ -11,13 +10,18 @@ class Personality:
     def __init__(self):
         pass
 
-    def make_choice(self, options):
+    def make_choice(self, player,age,options):
         pass
 
-
-class StupidAI(Personality):
+class DQNAI(Personality):#placeholder
     def __init__(self):
+        super().__init__()
+    def make_choice(self, player,age,options):
         pass
+
+class RuleBasedAI(Personality):
+    def __init__(self):
+        super().__init__()
 
     def make_choice(self, player, age, options):
         # return random.choice(range(len(options)))
@@ -37,7 +41,6 @@ class StupidAI(Personality):
                     nonDiscard.append(choicesIndex)
             nonDiscarded = [option for option in options if option[3] != -1]
             if not nonDiscarded:  # have only choice by discarding
-                print("OPTIONS LEN" + str(len(options)))
                 return random.choice(range(len(options)))
             for choicesIndex in range(len(options)):  # Select Card that gives more than 1 resource. If there are multiple cards, select one randomly
                 if type(options[choicesIndex][0]).__name__ == "Card":
@@ -94,18 +97,16 @@ class StupidAI(Personality):
             # play random non-discarded choice
             return random.choice(nonDiscard)
         else:  # age 3. Simulate all plays, greedy by most points.
-            beforePlayer = copy.deepcopy(player)
-            beforePlayer.hand = copy.deepcopy(player.hand)
-            basePoints = beforePlayer.endGameCal()
+            basePoints = player.endGameCal()
             gainPoints = -1
             selected = []
             for choicesIndex in range(len(options)):
-                afterPlayer = copy.deepcopy(player)
-                afterPlayer.hand = copy.deepcopy(player.hand)
-                print("HAND")
-                print(len(afterPlayer.hand))
-                print(choicesIndex)
-                print(options[choicesIndex])
+                afterPlayer = deepcopy(player)
+                afterPlayer.hand = deepcopy(player.hand)
+                #print("HAND")
+                #print(len(afterPlayer.hand))
+                #print(choicesIndex)
+                #print(options[choicesIndex])
                 afterPlayer.playChosenCardFake(options[choicesIndex])
                 addPoints = afterPlayer.endGameCal() - basePoints
                 if addPoints <0 :
@@ -123,9 +124,17 @@ class StupidAI(Personality):
 
 class Human(Personality):
     def __init__(self):
-        pass
+        super().__init__()
 
-    def make_choice(self, player, age, options):
-        print("Select Choices start from 0 from the top")
-        return int(stdin.readline())
+    def make_choice(self,player,age, options):
+        choiceNum = int(stdin.readline())
+        while(choiceNum >=len(options)):
+            print("Please input again")
+            choiceNum = int(stdin.readline())
+        return choiceNum
+class RandomAI(Personality):
+    def __init__(self):
+        super().__init__()
+    def make_choice(self, player,age,options):
+        return random.choice(range(len(options)))
 

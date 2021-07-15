@@ -1,5 +1,5 @@
-from mainGameEnv.resourceClass import Resource
-from mainGameEnv.stageClass import Stage
+from resourceClass import Resource
+from stageClass import Stage
 class Wonder:
     def __init__(self, name,side,resourceIni,resourceAmount, **kwargs):
         self.name = name
